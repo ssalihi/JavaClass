@@ -26,6 +26,8 @@ public class StringManipulation3 {
         System.out.println(cen.indexOf("w"));//-1
         // 
         System.out.println("-------------------substring--------------------------");
+        
+        
         String sub="Today is Sunday Java Class";
         String newSub=sub.substring(5);
         System.out.println(newSub);

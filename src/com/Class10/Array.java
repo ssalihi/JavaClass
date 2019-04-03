@@ -30,10 +30,12 @@ public class Array {
         System.out.println(numbers[2]+numbers[1]);// 25
         System.out.println(numbers[2]/numbers[0]);//3
         System.out.println("-------------------------------for string");
-        String [] a=new String [3];
+        String [] a= new String [3] ;
         a[0]="Hello";
         a[1]="Hi";
         a[2]="Bye";
         System.out.println(a[1]+ " friends");
+        //
+        
 	}
 }

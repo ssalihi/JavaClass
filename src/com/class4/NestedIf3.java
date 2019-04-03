@@ -32,7 +32,7 @@ public class NestedIf3 {
 				System.out.println("can get 5000 bonuse");
 			}else {
 				System.out.println("can get 3000 bonus");
-			}
+			}	
 		}else {
 			System.out.println("Will not get a bonus");
 		}
