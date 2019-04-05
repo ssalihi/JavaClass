@@ -13,7 +13,7 @@ while (num<=20) {
 		System.out.print(num);
 		
 	}
-	num++;  // put out of if condi
+	num++;  // put out of if condition
 	
 }
 // print only even numbers from 10 100
