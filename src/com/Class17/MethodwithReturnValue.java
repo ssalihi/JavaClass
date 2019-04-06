@@ -7,8 +7,7 @@ public class MethodwithReturnValue {
 		int stringLength=str.length();
 		System.out.println(stringLength);
 		MethodwithReturnValue obj=new MethodwithReturnValue();
-       int max=obj.largest(2, 3);
-        
+       
 		//String str=obj.askHowAreYou("Asel");
 		String day=obj.whatIsAday();
 		System.out.println("Today is ");
