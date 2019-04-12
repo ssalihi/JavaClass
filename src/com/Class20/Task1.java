@@ -1,6 +1,10 @@
 package com.Class20;
 
 public class Task1 {
+	private String name="John";
+	String name1="Bilal";
+	protected String name2="Asha";
+	public String name3="Tetian";
 
 	public static void main(String[] args) {
 		/*

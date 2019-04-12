@@ -13,5 +13,8 @@ sum=sum+i;
 
 	}
 System.out.println("sume is = "+sum);
+
+System.out.println("----------------------------------------------------sum");
+
 	}
 }
