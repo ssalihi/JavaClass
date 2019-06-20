@@ -14,7 +14,7 @@ public class MethodwithReturnValue {
 		System.out.println("Today is ");
 		obj.askHowAreYou(name);
 	}
-	void askHowAreYou(String name) {//here String is formal parameter and name if parameter list
+	void askHowAreYou(String name) {//here String is formal parameter and name of parameter list
 		System.out.println("How are you "+name);
 	}
 	String whatIsAday() {

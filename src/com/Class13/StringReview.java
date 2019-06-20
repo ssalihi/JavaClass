@@ -14,6 +14,12 @@ public class StringReview {
 		for (int a = day.length() - 1; a >= 0; a--) {
 			System.out.print(day.charAt(a));
 		}
+		System.out.println("--------------------------------------------2nd example");
+		
+		String month="May";
+		for (int y=month.length()-1; y>=0; y--) {
+			System.out.println(month.charAt(y));
+		}
 		System.out.println("-------------------------------------");
 		/*
 		 * create string and if the string is not empty perform the following: if the

@@ -5,7 +5,8 @@ public class Student {
 	public static void main(String[] args) {
 	int score;
 	Student obj=new Student();
-	char grade=obj.getGrade(85);
+	char grade=obj.getGrade(100);
+	obj.getGrade(85);
     System.out.println("My grade in syntax is "+grade);
 	}
 	

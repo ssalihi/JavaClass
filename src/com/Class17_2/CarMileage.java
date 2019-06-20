@@ -3,7 +3,7 @@ package com.Class17_2;
 public class CarMileage {
 
 	public static void main(String[] args) {
-		// 999 mileage of car
+		// 9999 mileage of car
 CarMileage d=new CarMileage();
 d.mileage();
 	}

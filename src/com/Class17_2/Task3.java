@@ -14,7 +14,7 @@ public class Task3 {
 		eN=scan.nextInt();
 		Task3 r=new Task3();
 		r.addition(sN,eN);
-		
+		r.input();
 	}
 	void addition (int sN, int eN) {
 		int sumodd=0; int sumeven=0;

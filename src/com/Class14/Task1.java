@@ -16,7 +16,7 @@ public class Task1 {
 		// You have String a="Is it saturday! Is it raining! Do we have a Java Class today?"
 		//how would you find out how many sentences are in that string?
 		String f="Is it saturday? Is it raining? Do we have a Java Class Today";
-		String [] array= f.split("?");//only "?" mark is not giving the result so we need to add "\\" before "?" or we use //[!?] this only
+		String [] array= f.split("\\?");//only "?" mark is not giving the result so we need to add "\\" before "?" or we use //[!?] this only
 		System.out.println("The number of sentences in string is: "+array.length);
 		
 		String newString = "My name is Sekander the Greatest of all Sekandera in this world"; 

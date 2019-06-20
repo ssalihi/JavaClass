@@ -7,14 +7,14 @@ public class StringManipulation2 {
 	 boolean contains=str.contains("Morning");// it is true, bcz Morning contains in str
 	 System.out.println(contains);
 	 
-	 System.out.println("----------------------------------------------");
+	 System.out.println("---------------------------------------------2nd -");
 	 String present="Welcome, Asel";
 	 boolean flag=present.contains("Welcome,");// unless it contains the values, it will be printed
 	 System.out.println(flag);//true
 	 boolean flag1=present.contains("Asel");
 	 System.out.println(flag1);	//true	
 ///
-	 System.out.println("-----------------------------------------------------------------");
+	 System.out.println("-------------------------------------------------------------3rd ----");
       String a="Welcome, Mehmet232323232";
       String b="WELCOME";
       boolean flag2=a.toUpperCase().contains(b);
@@ -47,6 +47,10 @@ public class StringManipulation2 {
       System.out.println("-----------Trim()------------");
       actual=actual.trim();
       System.out.println(expected.equals(actual));
+      
+      String a1="I love    you";
+      a1=a1.trim();
+      System.out.println(a1);
       
 	}
 

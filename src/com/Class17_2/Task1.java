@@ -12,7 +12,7 @@ public class Task1 {
 void printNumber() {
 	for (int a=5; a>0; a--) {
 		for (int b=5 ; b>0; b--) {
-			System.out.print(b);
+			System.out.print(b+" ");
 		}
 		System.out.println();
 		

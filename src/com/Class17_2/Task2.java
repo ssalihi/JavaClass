@@ -17,7 +17,7 @@ public class Task2 {
 			}
 			System.out.println();
 		}
-System.out.println("--------------------------------------------------------------------");
+System.out.println("----------------------------------------------------------------Star-1----");
  for (int r=1; r<=5; r++) {
 	 System.out.println("*");
 	 if (r==5)
@@ -26,7 +26,7 @@ System.out.println("------------------------------------------------------------
 		System.out.print("*");
 	} 
  }
- System.out.println("----------------------------------------");
+ System.out.println("-----------------------------------Start-2-----");
  for (int t=1; t<=5; t++) {
 	 for (int u=1; u<=t; u++) {
 		 System.out.print("*");
@@ -34,7 +34,7 @@ System.out.println("------------------------------------------------------------
 	 System.out.println();
  }
  //
- System.out.println("---------------");
+ System.out.println("--------------Star-3-----------------");
  for (int p=1; p<=4; p++) {
 	 for (int l=1; l<=6; l++) {
 		 if (p==1 || p==4 || l==1 || l==6) {

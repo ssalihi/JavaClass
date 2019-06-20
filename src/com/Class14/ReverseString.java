@@ -12,7 +12,13 @@ for (int i=array.length-1; i>=0; i--) {
 	reverse=reverse+array[i];
 	
 }
+
 System.out.println("Reversed String is: "+reverse);
+System.out.println("------------------------------------------------------reveser string");
+String a="Salihi";
+for (int l=a.length()-1; l>=0; l--) {
+System.out.print(a.charAt(l));	
+}
 //2. using charAt()
 String rev="";
 for (int i=original.length()-1; i>=0; i--) {

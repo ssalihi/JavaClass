@@ -11,6 +11,9 @@ public static void main(String[] args) {
      //System.out.println(d);
 	Application app=new Application();
 	char a=app.example5('B');
+	app.example();
+	app.example2(null);
+	
 	System.out.println(a);
 }
 void example () {

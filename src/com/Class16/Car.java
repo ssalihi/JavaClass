@@ -1,7 +1,7 @@
 package com.Class16;
 
 public class Car {
-String make,model,color;
+String make,model,color, year;
 int door, wheels;
 public static void main(String[] args) {// ctrl+space+Enter
 	//ClassName variableName=new ClassName();
@@ -12,6 +12,7 @@ public static void main(String[] args) {// ctrl+space+Enter
 	car1.color="Black";
 	car1.door=4;
 	car1.wheels=4;
+	car1.year="1999";
 	// car honda has 4 wheels
 	System.out.println("Car "+car1.make+" has "+car1.wheels+" wheels.");
     // define behavior

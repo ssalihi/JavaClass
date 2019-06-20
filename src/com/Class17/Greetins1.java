@@ -6,6 +6,8 @@ public class Greetins1 {
 		//Will create a method that ask a person how are you
 		Greetins1 obj=new Greetins1();
 		obj.askHowAreYou("Sekander");//
+		obj.askHowAreYou1("ahmad");
+		obj.askHowAreYou2("Mahmmod");
 		
 
 	}

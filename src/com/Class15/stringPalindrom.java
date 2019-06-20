@@ -19,6 +19,7 @@ if (word.equalsIgnoreCase(reverse)) {
 }else {
 	System.out.println("The word is not palidrome");
 }
+
 	}
 
 }

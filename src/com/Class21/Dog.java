@@ -18,12 +18,13 @@ public class Dog {
 			dog1.heigth=40;
 			dog1.getDogProperties();
 			//dog2
+			breed="pug";
 			dog2.name="Waffle";
 			dog2.weight=100;
 			dog2.heigth=90;
 			dog2.getDogProperties();
 			//dog3
-			breed="pug";
+			
 			dog3.name="Lucy";
 			dog3.weight=20;
 			dog3.heigth=30;

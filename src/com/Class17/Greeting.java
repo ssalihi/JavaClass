@@ -2,6 +2,7 @@ package com.Class17;
 
 public class Greeting {
 	public static void main(String[] args) {
+		
 	Greeting obj= new Greeting();
 	obj.hello();
 	obj.largest(20,10);// calling method find the larger and passing value compare 20 and 10

@@ -16,7 +16,7 @@ public class ScannerMethodwithReturn {
 	}
 	int sum(int a, int b) {// if we expecting from user we should specify the parameter in void method
 		//System.out.println("Sum of two number is="+(a+b))
-
+          //int sum=a+b;
 		return a+b;
 		
 	}

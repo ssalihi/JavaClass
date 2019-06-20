@@ -2,6 +2,8 @@ package com.Class11;
 
 public class Task {
 
+	
+
 	public static void main(String[] args) {
 		// Create an array of cars and stores 6 elements into it. Using different loops print all values form the array
 		String [] cars= {"Toyota", "Mazda","Mercedez","Infinit","Audi"};
@@ -55,6 +57,18 @@ public class Task {
 				
 		 }
 		 System.out.println(sum);
+		 int add=0;
+		 int [][]num= {{1,2,3},
+				    {4,5,6},
+				    {7,8,9}};
+		 for (int r=0; r<num.length; r++) {
+			 for (int c=0; c<num[r].length;c++) {
+			
+			System.out.print(num[r][c]+" ");
+			 }
+			 System.out.println();
+		 }
+		 
 		}
 		
 		}

@@ -14,6 +14,14 @@ public class StringSplit {
         for (int i=0; i<array.length; i++) {
         	System.out.println(array[i]);
         }
+        
+        String str1="I am working for goverment agency";
+        String []array1=str1.split("f");
+        System.out.println("The lenght of second example is :"+array1.length);
+        for (String a:array1) {
+        	System.out.println(a);
+        }
+        
 	}
 
 }

@@ -14,7 +14,25 @@ for (int i=0; i<array.length; i++) {
 	}else if (array[i]<min) {
 		min=array[i];
 	}
+	
 }
+System.out.println("-------------------------------------------2nd example");
+int [] ser= {100,200,300,400};
+int larg=ser[0];
+int smalles=ser[0];
+for (int a=0; a<ser.length; a++) {
+	
+	if (ser[a]>larg) {
+		larg=ser[a];
+		
+	}else if(ser[a]<smalles) {
+		smalles=ser[a];
+	}
+		
+	
+}
+System.out.println("The max :"+larg);
+System.out.println("The min :"+smalles);
 System.out.println("The largest number " + max);
 System.out.println("The smallesest number " + min);
 ///.. finding the second the largest number

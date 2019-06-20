@@ -12,17 +12,18 @@ public class primeNumber {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Please enter any number to its prime of not");
             num=scan.nextInt();
-            boolean prime=true;
+            //boolean prime=true;
       for (int i=2; i<num;i++) {
     	  if (num%i!=0) {
-    		  
+    		 System.out.println("The given number is prime"); 
     	  }
       else {
-    	  prime=false;
+    	 // prime=false;
+    	  System.out.println("the giver number is not prime");
     	  
     	  }
       }
-      System.out.println(prime);
+      //System.out.println(prime);
       //
       int i = 10, j = 50;// find the prime number between given range
 

@@ -11,7 +11,7 @@ public class Task3 {
 		Scanner scan;
 		scan=new Scanner (System.in);
 		System.out.println("Please start number and end number");
-		int sN; int eN; 
+		int sN=0; int eN=0; 
 		int sumodd=0; int sumeven=0;
 		sN=scan.nextInt();
 		eN=scan.nextInt();

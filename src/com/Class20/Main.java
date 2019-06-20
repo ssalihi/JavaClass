@@ -17,9 +17,9 @@ package com.Class20;
 		//test case below (dont change):
 		public static void main(String[] args){
 		  Main obj=new Main();
-		  obj.negate(2);
-			System.out.println(obj.negate(-10)); //should be -8
-			System.out.println(obj.negate(5)); //should be 2
+		  obj.negate(1);
+			System.out.println(obj.negate(8)); //should be -8
+			System.out.println(obj.negate(-2)); //should be 2
 		}
 	}
 

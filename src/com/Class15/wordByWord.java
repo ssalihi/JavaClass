@@ -14,6 +14,17 @@ public class wordByWord {
 		for (int j=words.length-1; j>=0; j--) {
 		System.out.print(words[j]+" ");	
 		}
+		System.out.println("---------------------------------------2nd example");
+		
+		String a="The Syntax is great course";
+		String b="";
+		for (int c=a.length()-1; c>=0; c--) {
+			b=b+a.charAt(c);
+			}
+		String[] word=b.split(" ");
+		for (int d=word.length-1; d>=0; d--) {
+			System.out.print(word[d]+" ");
+		}
 		
 	}
 

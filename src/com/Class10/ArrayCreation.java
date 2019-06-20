@@ -1,5 +1,7 @@
 package com.Class10;
 
+import java.util.Arrays;
+
 public class ArrayCreation {
 
 	public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class ArrayCreation {
 		String[] names= {"Huda", "Neda", "Salgy","Bilal", "Farhan"};
 		System.out.println("There are " +names.length+ " names in my array");
 		System.out.println(names[4]);
+		System.out.println(Arrays.toString(array));
+		
 	}
 
 }

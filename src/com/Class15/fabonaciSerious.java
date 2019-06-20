@@ -14,6 +14,16 @@ for (int i=0; i<10; i++) {
 	System.out.print(a+" ");
 	// 
 }
+int d=1;
+int e=0;
+int f=0;
+for (int j=0; j<20; j++) {
+	f=e+d;
+	d=e;
+	e=f;
+	System.out.print(d+" ");
+	
+}
 	}
 
 }

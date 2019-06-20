@@ -11,6 +11,13 @@ public class ArrayDemo {
         numbers[2]=10;
        
         System.out.println(numbers[3]);
+        
+        String [] names=new String[4];
+        names[0]="A";
+        names[1]="B";
+        names[2]="C";
+        
+        System.out.println(names[3]);
 	}
 
 }

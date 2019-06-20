@@ -3,7 +3,7 @@ package com.Class17;
 public class Task3 {
 public static void main(String[] args) {
 	Task3 obj=new Task3();
-	obj.palidrome("Dad");
+	obj.palidrome("salihi");
 			
 }
 void palidrome (String name) {

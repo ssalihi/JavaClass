@@ -14,6 +14,13 @@ for (int a=0; a<4; a++) {
 	}
 	System.out.println();
 }
+System.out.println("------------------------------------------------------------------------");
+for (int c=0; c<7; c++) {
+	for (int d=0; d<7;d++) {
+		System.out.print("+");
+	}
+	System.out.println();
+}
 	}
 
 }

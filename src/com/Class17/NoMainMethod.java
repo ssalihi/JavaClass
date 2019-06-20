@@ -12,7 +12,7 @@ public class NoMainMethod {
     	System.out.println("Bye");// it is not executable, because we dont have main method
     	
     }
-   public static void main(String[] args) {// now we are creating out main method//This will be out method signature
+   public static void main(String[] args) {// now we are creating out main method//This will be our method signature
 	   NoMainMethod obj=new NoMainMethod();// this is will be our method body
 	   obj.hello();// we calling the method of hello
 	   //we can not declare one method inside another method. our new method should 

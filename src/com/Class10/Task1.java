@@ -1,9 +1,12 @@
 package com.Class10;
 
+import java.util.Arrays;
+
 public class Task1 {
 
 	public static void main(String[] args) {
 		char [] array= {'A', 'B', 'C','D','E','F'};
+		System.out.println(Arrays.toString(array));
 		System.out.println(array [3]);
 		System.out.println("-------------------------2nd way ");
 		char [] grade= new char [6];
@@ -39,7 +42,9 @@ public class Task1 {
       String[] name = { "Ahmad", "Faisal", "Sekander", "Hamid", "Salihi", "Siyar" };
       int a=3;
       System.out.println(name[a]);
-      a+=2;
+      System.out.println("--------------------------------------------");
+      a+=1;//salihi
+      //a+=2 siyar
       System.out.println(name[a]);
       int size=name.length;
       System.out.println(size);
